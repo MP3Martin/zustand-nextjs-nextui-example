@@ -1,4 +1,4 @@
-# nextjs-test-zustand
+## zustand-nextjs-nextui-example
  
 This small Next.js app shows you how you can use [Zustand](https://github.com/pmndrs/zustand) and its [Immer middleware](https://docs.pmnd.rs/zustand/integrations/immer-middleware).
 

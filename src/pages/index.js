@@ -12,7 +12,7 @@ export default function Home () {
       <GithubRibbon />
       <div className='h-full'>
         {[...Array(buttonCount).keys()].map((i) => (
-          <Button key={i} className='mt-5 mb-2 ml-5' color='primary' variant='ghost' radius='sm' onClick={() => increaseClickCount(i)}>
+          <Button key={i} className='mt-5 mb-2 ml-5' color='primary' variant='ghost' radius='sm' onPress={() => increaseClickCount(i)}>
             Click me #{i + 1}
           </Button>
         )
